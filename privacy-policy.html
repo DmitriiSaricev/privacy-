@@ -1,157 +1,212 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ro">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Политика конфиденциальности — Wiza Bot</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --bg: #0f0f0f;
-    --surface: #1a1a1a;
-    --border: #2a2a2a;
-    --text: #e8e8e8;
-    --muted: #888;
-    --accent: #c8a96e;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 300;
-    line-height: 1.8;
-    min-height: 100vh;
-  }
-  header {
-    border-bottom: 1px solid var(--border);
-    padding: 2rem 0;
-  }
-  .container {
-    max-width: 780px;
-    margin: 0 auto;
-    padding: 0 2rem;
-  }
-  .logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.4rem;
-    color: var(--accent);
-    letter-spacing: 0.05em;
-  }
-  .logo span { color: var(--muted); font-size: 0.9rem; font-family: 'DM Sans', sans-serif; margin-left: 0.5rem; font-weight: 300; }
-  main { padding: 4rem 0; }
-  h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.4rem;
-    font-weight: 600;
-    color: var(--text);
-    margin-bottom: 0.5rem;
-    line-height: 1.2;
-  }
-  .subtitle {
-    color: var(--muted);
-    font-size: 0.9rem;
-    margin-bottom: 3rem;
-    padding-bottom: 3rem;
-    border-bottom: 1px solid var(--border);
-  }
-  .subtitle span {
-    color: var(--accent);
-  }
-  h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: var(--accent);
-    margin: 2.5rem 0 1rem;
-  }
-  p { color: #c0c0c0; margin-bottom: 1rem; font-size: 0.95rem; }
-  ul { color: #c0c0c0; padding-left: 1.5rem; margin-bottom: 1rem; font-size: 0.95rem; }
-  ul li { margin-bottom: 0.4rem; }
-  .contact-box {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--accent);
-    padding: 1.5rem 2rem;
-    margin-top: 3rem;
-    border-radius: 2px;
-  }
-  .contact-box p { margin: 0; }
-  .contact-box a { color: var(--accent); text-decoration: none; }
-  footer {
-    border-top: 1px solid var(--border);
-    padding: 2rem 0;
-    text-align: center;
-    color: var(--muted);
-    font-size: 0.85rem;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | ALGORIN S.R.L. - AI Sales Platform</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', -apple-system, sans-serif; background: #f8f9fa; color: #1a1a1a; line-height: 1.7; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        .header { text-align: center; padding: 40px 0 30px; border-bottom: 3px solid #1B4332; margin-bottom: 40px; }
+        .header h1 { font-size: 28px; color: #1B4332; margin-bottom: 8px; }
+        .header .subtitle { color: #555; font-size: 16px; }
+        .header .company { font-size: 14px; color: #888; margin-top: 12px; }
+        .lang-switch { text-align: center; margin-bottom: 30px; }
+        .lang-switch a { display: inline-block; padding: 8px 20px; margin: 0 5px; border-radius: 20px; text-decoration: none; font-size: 14px; border: 1px solid #ddd; color: #555; transition: all 0.2s; }
+        .lang-switch a.active { background: #1B4332; color: white; border-color: #1B4332; }
+        .section { margin-bottom: 30px; }
+        .section h2 { font-size: 20px; color: #1B4332; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid #e0e0e0; }
+        .section h3 { font-size: 16px; color: #333; margin: 15px 0 8px; }
+        .section p { margin-bottom: 10px; color: #333; }
+        .section ul { margin: 8px 0 15px 25px; }
+        .section li { margin-bottom: 6px; color: #444; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 14px; }
+        th { background: #1B4332; color: white; padding: 10px 12px; text-align: left; }
+        td { padding: 8px 12px; border-bottom: 1px solid #eee; }
+        tr:nth-child(even) { background: #f5f5f5; }
+        .highlight { background: #e8f5e9; padding: 15px; border-radius: 8px; border-left: 4px solid #2E7D32; margin: 15px 0; }
+        .warning { background: #fff3e0; padding: 15px; border-radius: 8px; border-left: 4px solid #E65100; margin: 15px 0; }
+        .contact-box { background: #f0f4f8; padding: 20px; border-radius: 10px; margin-top: 30px; }
+        .contact-box h3 { color: #1B4332; margin-bottom: 10px; }
+        .contact-box p { margin: 5px 0; font-size: 14px; }
+        .footer { text-align: center; padding: 30px 0; color: #888; font-size: 12px; border-top: 1px solid #eee; margin-top: 40px; }
+        @media (max-width: 600px) { .container { padding: 20px 15px; } .header h1 { font-size: 22px; } }
+    </style>
 </head>
 <body>
 
-<header>
-  <div class="container">
-    <div class="logo">Dmitrii Agency <span>/ Wiza Bot</span></div>
-  </div>
-</header>
+<div class="container">
+    <div class="header">
+        <h1>Politica de Confidențialitate</h1>
+        <div class="subtitle">Privacy Policy / Политика конфиденциальности</div>
+        <div class="company">ALGORIN S.R.L. — AI Sales Platform</div>
+    </div>
 
-<main>
-  <div class="container">
-    <h1>Политика конфиденциальности</h1>
-    <p class="subtitle">Последнее обновление: <span>12 марта 2026 г.</span></p>
+    <div class="lang-switch">
+        <a href="#" class="active">Română</a>
+        <a href="#">Русский</a>
+        <a href="#">English</a>
+    </div>
 
-    <h2>1. Общие положения</h2>
-    <p>Настоящая политика конфиденциальности описывает, как Dmitrii Agency («мы», «нас») собирает, использует и защищает информацию пользователей приложения Wiza Bot, взаимодействующих с нами через Facebook Messenger и Instagram.</p>
+    <div class="section">
+        <h2>1. Informații generale</h2>
+        <p><strong>ALGORIN S.R.L.</strong> (în continuare — "Compania", "noi") se angajează să protejeze confidențialitatea datelor dvs. personale în conformitate cu Regulamentul General privind Protecția Datelor (GDPR) al Uniunii Europene — Regulamentul (UE) 2016/679.</p>
+        <p>Platforma noastră oferă un asistent AI pentru vânzări care interacționează cu clienții dvs. prin mesagerie (Telegram, Facebook Messenger, Instagram Direct, WhatsApp) și procesează automat mesajele pentru a ajuta la alegerea produselor și serviciilor.</p>
 
-    <h2>2. Какие данные мы собираем</h2>
-    <p>В процессе работы бота мы можем собирать следующие данные:</p>
-    <ul>
-      <li>Идентификатор пользователя Facebook или Instagram (User ID)</li>
-      <li>Текст сообщений, направленных боту</li>
-      <li>Имя пользователя (публичное имя профиля)</li>
-      <li>Дата и время обращения</li>
-    </ul>
+        <div class="highlight">
+            <strong>Principiu cheie:</strong> Colectăm doar datele minime necesare pentru a oferi serviciul. Nu vindem și nu transmitem datele dvs. terților în scopuri comerciale.
+        </div>
+    </div>
 
-    <h2>3. Цели использования данных</h2>
-    <p>Собранные данные используются исключительно для:</p>
-    <ul>
-      <li>Ответа на запросы пользователей в рамках консультации по мебельной продукции</li>
-      <li>Организации замера и записи на встречу</li>
-      <li>Улучшения качества обслуживания</li>
-    </ul>
+    <div class="section">
+        <h2>2. Operatorul de date</h2>
+        <table>
+            <tr><td><strong>Compania</strong></td><td>ALGORIN S.R.L.</td></tr>
+            <tr><td><strong>Cod fiscal</strong></td><td>1026600015119</td></tr>
+            <tr><td><strong>Adresa juridică</strong></td><td>Chișinău, str. Mihail Sadoveanu, 30/1, ap. 68</td></tr>
+            <tr><td><strong>Administrator</strong></td><td>Dmitri Saricev</td></tr>
+            <tr><td><strong>Email DPO</strong></td><td>dmitriisaricev@gmail.com</td></tr>
+            <tr><td><strong>Telefon</strong></td><td>+373 79 548 365</td></tr>
+        </table>
+    </div>
 
-    <h2>4. Хранение данных</h2>
-    <p>История переписки хранится в защищённой базе данных и используется только для обеспечения контекста разговора. Мы не продаём и не передаём ваши данные третьим лицам в коммерческих целях.</p>
+    <div class="section">
+        <h2>3. Ce date colectăm</h2>
+        <table>
+            <tr><th>Categoria datelor</th><th>Exemple</th><th>Temei juridic</th></tr>
+            <tr><td>Identificatori</td><td>chat_id, user_id, username</td><td>Interes legitim</td></tr>
+            <tr><td>Date de contact</td><td>Nume, telefon (furnizate voluntar)</td><td>Consimțământ</td></tr>
+            <tr><td>Istoricul mesajelor</td><td>Textul mesajelor, data/ora</td><td>Executarea contractului</td></tr>
+            <tr><td>Metadate canal</td><td>Platforma (TG/FB/IG/WA), limba</td><td>Interes legitim</td></tr>
+            <tr><td>Date despre lead-uri</td><td>Status follow-up, data ultimului contact</td><td>Interes legitim</td></tr>
+        </table>
 
-    <h2>5. Данные Meta Platforms</h2>
-    <p>Приложение использует Facebook Messenger API и Instagram API в соответствии с условиями платформы Meta. Мы запрашиваем только минимально необходимые разрешения для работы чат-бота. Ваши данные обрабатываются в соответствии с <a href="https://www.facebook.com/policy.php" style="color: #c8a96e;">Политикой конфиденциальности Meta</a>.</p>
+        <div class="warning">
+            <strong>NU colectăm:</strong> date bancare, documente de identitate, date medicale, date biometrice, date de geolocalizare.
+        </div>
+    </div>
 
-    <h2>6. Права пользователей</h2>
-    <p>Вы имеете право:</p>
-    <ul>
-      <li>Запросить удаление ваших данных</li>
-      <li>Получить информацию о хранящихся данных</li>
-      <li>Отказаться от дальнейшей обработки</li>
-    </ul>
-    <p>Для этого напишите нам на контактный email ниже.</p>
+    <div class="section">
+        <h2>4. Scopul prelucrării datelor</h2>
+        <ul>
+            <li><strong>Consultanță AI în vânzări</strong> — prelucrarea mesajelor pentru recomandări personalizate de produse</li>
+            <li><strong>Gestionarea lead-urilor</strong> — salvarea datelor de contact pentru contactarea de către manager</li>
+            <li><strong>Mesaje automate de follow-up</strong> — trimiterea de memento-uri clienților care nu au finalizat interacțiunea</li>
+            <li><strong>Îmbunătățirea calității</strong> — analiza logurilor pentru creșterea acurateții răspunsurilor AI</li>
+            <li><strong>Notificări managerilor</strong> — notificări prin email despre lead-uri noi</li>
+        </ul>
+    </div>
 
-    <h2>7. Удаление данных</h2>
-    <p>Для удаления ваших данных отправьте запрос на электронную почту, указанную ниже. Данные будут удалены в течение 30 дней.</p>
+    <div class="section">
+        <h2>5. Mesaje automate de follow-up</h2>
+        <p>Platforma utilizează un <strong>Follow-up Scheduler</strong> automat pentru trimiterea de memento-uri. Aceasta constituie prelucrare automată a datelor conform Articolului 22 GDPR.</p>
 
-    <h2>8. Изменения политики</h2>
-    <p>Мы оставляем за собой право обновлять настоящую политику. Актуальная версия всегда доступна по этому адресу.</p>
+        <table>
+            <tr><th>Încercare</th><th>Când se trimite</th><th>Descriere</th></tr>
+            <tr><td>Prima</td><td>După 2 zile de la ultimul contact</td><td>Memento personalizat cu referire la produsele discutate</td></tr>
+            <tr><td>A doua</td><td>După 5 zile</td><td>Memento ușor despre consultarea nefinalizată</td></tr>
+            <tr><td>A treia</td><td>După 12 zile</td><td>Mesaj final cu oferta de ajutor</td></tr>
+        </table>
+
+        <div class="highlight">
+            <strong>Maximum 3 încercări.</strong> După a treia — mesajele automate se opresc. Puteți renunța oricând scriind <strong>"stop"</strong> sau <strong>"отписаться"</strong>.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>6. Prelucrarea datelor cu AI</h2>
+        <table>
+            <tr><th>Furnizor</th><th>Model</th><th>Scop</th><th>Regiunea serverelor</th></tr>
+            <tr><td>Anthropic</td><td>Claude Haiku 4.5</td><td>AI principal</td><td>SUA (SCC)</td></tr>
+            <tr><td>OpenAI</td><td>GPT-4o-mini</td><td>AI de rezervă</td><td>SUA (SCC)</td></tr>
+        </table>
+        <p>Furnizorii AI prelucrează datele exclusiv pentru generarea răspunsurilor. Datele <strong>nu sunt utilizate pentru antrenarea modelelor</strong>. Transferul datelor în SUA se realizează pe baza Clauzelor Contractuale Standard (SCC).</p>
+    </div>
+
+    <div class="section">
+        <h2>7. Stocarea și păstrarea datelor</h2>
+        <table>
+            <tr><th>Tipul datelor</th><th>Termen de păstrare</th><th>După expirare</th></tr>
+            <tr><td>Istoricul chat-ului</td><td>90 de zile</td><td>Ștergere automată</td></tr>
+            <tr><td>Date despre lead-uri</td><td>1 an</td><td>Anonimizare</td></tr>
+            <tr><td>Loguri de execuție</td><td>30 de zile</td><td>Ștergere automată</td></tr>
+        </table>
+        <p>Toate datele sunt stocate în <strong>Supabase (PostgreSQL)</strong> cu criptare și Row Level Security.</p>
+    </div>
+
+    <div class="section">
+        <h2>8. Drepturile dvs. conform GDPR</h2>
+        <table>
+            <tr><th>Drept</th><th>Descriere</th><th>Cum să-l exercitați</th></tr>
+            <tr><td>Acces</td><td>Obțineți o copie a datelor dvs.</td><td>Email la DPO</td></tr>
+            <tr><td>Rectificare</td><td>Corectarea datelor inexacte</td><td>Email la DPO</td></tr>
+            <tr><td>Ștergere</td><td>Ștergerea tuturor datelor dvs.</td><td>Comanda /reset în bot sau email</td></tr>
+            <tr><td>Portabilitate</td><td>Primirea datelor în format digital</td><td>Email la DPO</td></tr>
+            <tr><td>Opoziție</td><td>Refuzul prelucrării</td><td>"Stop" în bot sau email</td></tr>
+            <tr><td>Retragere consimțământ</td><td>Retragerea consimțământului oricând</td><td>"Stop" în bot sau email</td></tr>
+        </table>
+        <p><strong>Termen de răspuns:</strong> 30 de zile de la primirea solicitării.</p>
+    </div>
+
+    <div class="section">
+        <h2>9. Procesatori terți</h2>
+        <table>
+            <tr><th>Compania</th><th>Scop</th><th>Garanții</th></tr>
+            <tr><td>Anthropic</td><td>Generare răspunsuri AI</td><td>SUA / SCC + DPA</td></tr>
+            <tr><td>OpenAI</td><td>AI de rezervă</td><td>SUA / SCC + DPA</td></tr>
+            <tr><td>Supabase</td><td>Baza de date</td><td>UE / GDPR compliant</td></tr>
+            <tr><td>Railway</td><td>Hosting aplicație</td><td>UE/SUA / SCC</td></tr>
+            <tr><td>Resend</td><td>Notificări email</td><td>SUA / SCC</td></tr>
+            <tr><td>Meta Platforms</td><td>API mesagerie FB/IG/WA</td><td>UE/SUA / SCC + DPA</td></tr>
+            <tr><td>Telegram</td><td>API mesagerie</td><td>Propria politică</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>10. Securitatea datelor</h2>
+        <ul>
+            <li>Toate datele sunt transmise prin protocol securizat TLS (HTTPS)</li>
+            <li>Cheile API sunt stocate în variabile de mediu criptate</li>
+            <li>Accesul la baza de date este restricționat prin Row Level Security</li>
+            <li>Parolele și datele confidențiale nu sunt stocate în text clar</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>11. Notificarea privind încălcarea datelor</h2>
+        <p>În cazul unei încălcări a datelor personale, ne angajăm să:</p>
+        <ul>
+            <li>Notificăm autoritatea de supraveghere în termen de <strong>72 de ore</strong></li>
+            <li>Notificăm utilizatorii afectați fără întârziere nejustificată</li>
+            <li>Documentăm toate incidentele și măsurile luate</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>12. Modificări ale politicii</h2>
+        <p>Ne rezervăm dreptul de a actualiza această politică. Despre modificările substanțiale, utilizatorii vor fi notificați prin bot sau prin email.</p>
+        <p><strong>Ultima actualizare:</strong> 31 martie 2026 | <strong>Versiunea:</strong> 2.0</p>
+    </div>
 
     <div class="contact-box">
-      <p>По вопросам конфиденциальности: <a href="mailto:dmitriisaricev@gmail.com">dmitriisaricev@gmail.com</a></p>
+        <h3>📩 Contact</h3>
+        <p><strong>ALGORIN S.R.L.</strong></p>
+        <p>Cod fiscal: 1026600015119</p>
+        <p>Adresa: Chișinău, str. Mihail Sadoveanu, 30/1, ap. 68</p>
+        <p>Email: <a href="mailto:dmitriisaricev@gmail.com">dmitriisaricev@gmail.com</a></p>
+        <p>Telefon: <a href="tel:+37379548365">+373 79 548 365</a></p>
+        <p>Administrator: Dmitri Saricev</p>
+        <p style="margin-top: 12px; font-size: 13px; color: #666;">
+            Aveți dreptul de a depune o plângere la autoritatea de supraveghere a protecției datelor din țara dvs.
+        </p>
     </div>
-  </div>
-</main>
 
-<footer>
-  <div class="container">
-    © 2026 Dmitrii Agency. Все права защищены.
-  </div>
-</footer>
+    <div class="footer">
+        &copy; 2026 ALGORIN S.R.L. Toate drepturile rezervate.<br>
+        AI Sales Platform — Politica de Confidențialitate v2.0
+    </div>
+</div>
 
 </body>
 </html>
